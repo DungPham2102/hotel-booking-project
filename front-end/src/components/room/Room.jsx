@@ -41,7 +41,7 @@ const Room = () => {
     const endIndex = startIndex + roomsPerPage;
     return filteredData
       .slice(startIndex, endIndex)
-      .map((room) => <RoomCard key="room.id" room={room} />);
+      .map((room) => <RoomCard key={room.id} room={room} />);
   };
 
   return (

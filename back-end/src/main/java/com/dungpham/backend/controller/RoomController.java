@@ -24,7 +24,7 @@ import java.util.Base64;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin
+@CrossOrigin("http://localhost:5173")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/rooms")
